@@ -1,49 +1,150 @@
 <!DOCTYPE html>
 
-<!-- VERSÃO DE TESTE! NAO É A DEFINITIVA AINDA! -->
-
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda de Eventos - IFCE Campus Maranguape</title>
-</head>
-<body>
-    <h1>Agenda de Eventos - IFCE Campus Maranguape</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agenda-De-Eventos:-IFCE</title>
+        
+        <style>
+            #EventoDestaque {
+                background-color: rgb(255, 198, 83);
+            }
+            
+            #TituloEventoDestaque {
+                background-color: rgb(255, 43, 61);
+                font-style: italic;
+            }
+            #TituloContato {
+                background-color: rgb(158, 0, 153);
+            }
+            #Contato {
+                background-color: rgb(254, 83, 217);
+            }
+            #TituloPrincipal {
+                background-color: rgb(13, 255, 0);
+            }
+            #Apresentacao {
+                background-color: rgb(83, 254, 163);
+                font-style: italic;
+            }
+            #Info {
+                background-color: #96ff6f;
+            }
+            .descricao {
+                font-style: italic;
+            }
+            .EventoComum {
+                background-color: rgb(129, 207, 255);
+            
+            }
+            .TituloEvento {
+                background-color: rgb(22, 107, 211);
+                
+            }
+            .data {
+                background-color: rgb(71, 255, 74);
+                font-weight: bolder;
+            }
+            .local {
+                font-weight: bolder;
+            }
+            a:hover {
+                color: red;
+            }
+            p{
+                font-size: large;
+            }
+            body{
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                max-width: 800px;
+                width: 90%; 
+                margin: 0 auto; 
+                background-color: #f4f4f4;
+                padding: 20px;
+                text-align: center;
+                background-image: url('if.png');
+                background-repeat: repeat;
+                background-size: 50px; 
 
-    <p id="apresentacao">Confira três eventos fictícios preparados para a comunidade do IFCE Campus Maranguape!</p>
+                }
 
-    <section>
-        <h2 class="titulo-evento">Feira de Ciências e Tecnologia</h2>
-        <p>Estudantes apresentarão experiências e projetos desenvolvidos em sala de aula.</p>
-        <p><span class="data">Data: 20 de novembro de 2026</span></p>
-        <p>Local: Pátio do IFCE Campus Maranguape.</p>
-        <p>Atrações:</p>
-        <ul>
-            <li>Exposição de projetos</li>
-            <li>Demonstrações de robótica</li>
-            <li>Experimentos interativos</li>
-        </ul>
-    </section>
+        </style>
+    </head>
 
-    <section class="evento-destaque">
-        <h2 class="titulo-evento">Festival Cultural Estudantil</h2>
-        <p class="descricao">Uma tarde de música, dança e apresentações artísticas feitas pelos estudantes.</p>
-        <p><span class="data">Data: 27 de novembro de 2026</span></p>
-        <p>Local: Auditório do IFCE Campus Maranguape.</p>
-    </section>
+    <body>
+        <!-- Título Principal -->
+        <header>
+            <h1 id="TituloPrincipal">Agenda Dos Eventos: IFCE - Maranguape 2026</h1>
 
-    <section>
-        <h2 class="titulo-evento">Encontro de Desenvolvimento Web</h2>
-        <p>Uma conversa sobre criação de sites e apresentação de páginas feitas pelos alunos.</p>
-        <p><span class="data">Data: 4 de dezembro de 2026</span></p>
-        <p>Local: Laboratório de Informática do IFCE Campus Maranguape.</p>
-        <p>Conheça o <a href="https://ifce.edu.br/" target="_blank" rel="noopener noreferrer">site do IFCE</a>.</p>
-    </section>
 
-    <section id="contato">
-        <h2>Contato</h2>
-        <p>Para saber mais sobre os eventos fictícios, procure a organização estudantil do campus.</p>
-    </section>
-</body>
+            <!-- Breve Resmo -->
+            <p id="Apresentacao">Confira esses três eventos(fictícios?) que irão acontecer no ifce campus maranguape! Não deixe de participar dos eventos divertidos feitor por/para alunas(os) do IFCE campus Maranguape!</p>
+            <p id="Info">Para mais informações locais <a href="https://ifce.edu.br/" target="_blank" rel="noopener noreferrer">Site do IFCE - Maranguape</a>.</p>
+        </header>
+
+        <!-- Evento Destaque -->
+        <section id="EventoDestaque">
+            <h2 id="TituloEventoDestaque">Competição de jogar Plok!</h2>
+            <p class="descricao">Uma competição de quem consegue zerar Plok!(snes) no menor tempo possível e haverá prêmios incríveis para quem ganhar. Teste suas habilidades e faça a melhor speedrun de todas de um jogo tão maravilhoso como esse!</p>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfySwT2OAK6GuRzyZNv6BKtrXVnnSP0QAuKYb4FbIYEA&s=10" height="150">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzM9Mne6XcZZITfDxvRax9w5BlNUN4IVUGoSb36yF2vQ&s=10" height="150">
+            </figure>
+            
+            <p>Regras do evento:</p>
+            <ol>
+                <li>Não pode usar trapaças</li>
+                <li>Não pode desligar o computador alheio</li>
+                <li>Em caso de Game Over, Estará desclassificado automaticamente</li>
+            </ol>
+
+            <p class="data">Data: 22 de outubro de 2026<br> Horário CD tarde</p>
+            <p class="local">Local: Laboratório 3 do IFCE Campus Maranguape.</p>
+        </section>
+
+        <!-- Evento Comum -->
+        <section class="EventoComum">
+            <h2 class="TituloEvento">Como uma perfomance nos influencia?</h2>
+            <p class="descricao">Alunos apresentarão um repertório de músicas escolhidas, com instrumentação, vozes, dança e decoração. <br>Ao final, haverá um debate da importância de enfrentar o palco e falar para o mundo junto do impacto cutural da música para as pessoas.</p>
+            <p class="data">Data: 26 de outubro de 2026<br> Horário CD tarde</p>
+            <p class="local">Local: Auditório do IFCE Campus Maranguape.</p>
+        </section>
+
+        <!-- Evento Comum -->
+        <section class="EventoComum">
+            <h2 class="TituloEvento">Desenvolvendo a Web I: O filme</h2>
+            <p class="descricao">Um aulão sobre desenvolvimento web e suas aplicações.<br> Haverá explicações sobre html, css e javascript e como usar cada um.<br>Ao final do aulão, haverá também uma prova sobre tudo ensinado e quem se der bem, ganhará uma cópia grátis do livro "Crie Seu Próprio Site, Um guia em quadrinhos para HTML, CSS e WordPress" de Nate Cooper com ilustrações de Kim Gee .</p>
+            <p class="data">Data: 29 de outubro de 2026<br> Horário AB tarde</p>
+            <p class="local">Local: Laboratório de Informática 3 do IFCE Campus Maranguape.</p>
+
+        </section>
+
+        <!-- Seção De Contato -->
+        <section id="Contato">
+            <h2 id="TituloContato">Contato de organizadores</h2>
+            <p>Entre em contato com os organizadores dos eventos pelos links abaixo 100% grátis e confiável (2026):</p>
+            <ul>
+                <li>
+                    <p>Competição de jogar Plok:<br>
+                    <a href="https://www.tinkercad.com/">Matanaeu.samantos@ifce.edu.com.br</a><br>
+                    <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoLctAOONBFLfBlH7kH5XNSdvxA1E4gBcp9KMx-S0bF2IQcVKqOofirh0&s=10">Rojerio.invecoes@ifce.edu.com.br</a></p>
+                </li>
+
+                <li>
+                    <p>Como uma perfomance nos influencia:<br>
+                    <a href="https://www.numuki.com/game/at-rhythm-heroes/">Cladsang.Leaone@ifce.edu.com.br</a>
+                    <br>
+                    <a href="https://www.numuki.com/game/spongebob-type-rider/">Benn.niguinia@ifce.edu.com.br</a></p>
+                </li>
+
+                <li>
+                    <p>Desenvolvimento a Web I: O filme:<br>
+                    <a href="https://www.retrogames.cz/play_1546-SNES.php">Tomn.amais@ifce.edu.com.br</a><br>
+                    <a href="https://docs.docker.com/desktop/setup/install/linux/">Alisam.osong@ifce.edu.com.br</a></p>
+                </li>
+            </ul>
+        </section>
+
+    </body>
 </html>
